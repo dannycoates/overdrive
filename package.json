@@ -1,0 +1,27 @@
+{
+  "name": "overdrive",
+  "version": "0.0.0",
+  "description": "some kind of log thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dannycoates/overdrive.git"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "Danny Coates",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dannycoates/overdrive/issues"
+  },
+  "dependencies": {
+    "rfs": "*"
+  },
+  "devDependencies": {
+    "tap": "0.4.4"
+  }
+}
